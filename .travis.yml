@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - '0.10'
-  - '0.11'
+  - 12
+  - lts/*
 
 env:
   global:
@@ -14,8 +14,8 @@ before_install:
     autogen automake
   - wget https://github.com/ckolivas/cgminer/archive/v4.11.1.zip
   - mkdir cgminer
-  - unzip v4.11.1.zip -d cgminer 
-  - cd cgminer
+  - unzip v4.11.1.zip 
+  - cd cgminer-4.11.1
   - ./autogen.sh --disable-opencl --disable-adl --enable-cpumining
   - CFLAGS="-O2 -Wall -march=native" ./configure --disable-opencl --disable-adl --enable-cpumining
   - make -j16
