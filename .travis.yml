@@ -12,10 +12,10 @@ before_install:
   - rm -rf ~/.cgminer
   - sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config libtool yasm
     autogen automake
-  - wget https://github.com/ckolivas/cgminer/tarball/v2.11.4
+  - wget https://github.com/ckolivas/cgminer/archive/v4.11.1.zip
   - mkdir cgminer
-  - tar zxvf v2.11.4 --directory cgminer
-  - cd cgminer/ckolivas-cgminer-96c8ff5
+  - unzip v4.11.1.zip -d cgminer 
+  - cd cgminer
   - ./autogen.sh --disable-opencl --disable-adl --enable-cpumining
   - CFLAGS="-O2 -Wall -march=native" ./configure --disable-opencl --disable-adl --enable-cpumining
   - make -j16
