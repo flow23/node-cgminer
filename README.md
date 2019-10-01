@@ -34,12 +34,9 @@ cgminer.connect()
 ## License
 MIT
 
-[sails-logo]: http://cdn.tjw.io/images/sails-logo.png
-[sails-url]: https://sailsjs.org
 [npm-image]: https://img.shields.io/npm/v/cgminer-api.svg?style=flat
 [npm-url]: https://npmjs.org/package/cgminer-api
 [travis-image]: https://img.shields.io/travis/flow23/node-cgminer.svg?style=flat
 [travis-url]: https://travis-ci.org/flow23/node-cgminer
-[daviddm-image]: http://img.shields.io/david/hashware/node-cgminer-api.svg?style=flat
+[daviddm-image]: https://david-dm.org/flow23/cgminer-api.svg
 [daviddm-url]: https://david-dm.org/hashware/node-cgminer-api
-[daviddm-dev-image]: https://david-dm.org/hashware/node-cgminer-api/dev-status.svg?style=flat
