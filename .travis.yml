@@ -11,10 +11,10 @@ env:
 before_install:
   - rm -rf ~/.cgminer
   - sudo apt-get install build-essential autoconf automake libtool pkg-config libcurl4-openssl-dev libudev-dev libusb-1.0-0-dev libncurses5-dev
-  - wget https://github.com/ckolivas/cgminer/archive/v4.11.1.zip
+  - wget https://github.com/ckolivas/cgminer/archive/v2.11.4.zip
   - mkdir cgminer
-  - unzip v4.11.1.zip 
-  - cd cgminer-4.11.1
+  - unzip v2.11.4.zip 
+  - cd cgminer-2.11.4
   - ./autogen.sh --disable-opencl --disable-adl --enable-cpumining
   - CFLAGS="-O2 -Wall -march=native" ./configure --disable-opencl --disable-adl --enable-cpumining
   - make -j16
