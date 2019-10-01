@@ -11,7 +11,7 @@ env:
 before_install:
   - rm -rf ~/.cgminer
   - sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config libtool yasm
-    autogen automake libpthread-stubs0-dev
+    autogen automake libc6-dev
   - wget https://github.com/ckolivas/cgminer/archive/v4.11.1.zip
   - mkdir cgminer
   - unzip v4.11.1.zip 
