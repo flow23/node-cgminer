@@ -38,5 +38,5 @@ MIT
 [npm-url]: https://npmjs.org/package/cgminer-api
 [travis-image]: https://img.shields.io/travis/flow23/node-cgminer.svg?style=flat
 [travis-url]: https://travis-ci.org/flow23/node-cgminer
-[daviddm-image]: https://david-dm.org/flow23/cgminer-api.svg
-[daviddm-url]: https://david-dm.org/hashware/node-cgminer-api
+[daviddm-image]: https://david-dm.org/flow23/node-cgminer.svg
+[daviddm-url]: https://david-dm.org/flow23/node-cgminer
