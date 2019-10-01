@@ -42,3 +42,4 @@ MIT
 [travis-url]: https://travis-ci.org/flow23/node-cgminer
 [daviddm-image]: http://img.shields.io/david/hashware/node-cgminer-api.svg?style=flat
 [daviddm-url]: https://david-dm.org/hashware/node-cgminer-api
+[daviddm-dev-image]: https://david-dm.org/hashware/node-cgminer-api/dev-status.svg?style=flat
